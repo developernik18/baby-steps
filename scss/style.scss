@@ -1,0 +1,13 @@
+@import 'base/colors';
+
+$primary-background-color: $green;
+
+body{
+  background-color: $primary-background-color;
+  color: $white;
+}
+
+h1{
+  text-align: center;
+}
+
