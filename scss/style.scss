@@ -1,4 +1,5 @@
 @import 'base/colors';
+@import 'base/fonts';
 
 $primary-background-color: $green;
 
@@ -8,6 +9,7 @@ body{
 }
 
 h1{
+  @extend .nunito;
   text-align: center;
 }
 
